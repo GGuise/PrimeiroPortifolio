@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Portifólio</title>
+    <!--CSS externo-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="menu">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#formacao">Formação e Experiências</a>
+        <a href="#portifolio">Portifólio</a>
+        <a href="#contato">Entre em Contato</a>
+    </div>
+
+    <div id="sobre" class="assuntos">
+        <h1>Sobre mim</h1>
+        <p>E aí, galera! Me chamo Gregory Guise e tô aqui pra contar um pouco sobre mim. Sabe aquela sensação incrível
+            de liberdade? Eu sinto isso quando tô lá em cima, pilotando meu drone e capturando momentos únicos lá do
+            alto. Mas não é só isso, não! Quando tô de boa, tô coladinho com minha família, curtindo cada segundo
+            juntos. Ah, e viajar? Pra mim, é como recarregar as energias. Adoro explorar lugares novos, descobrir o que
+            cada cantinho desse mundão tem de especial. Então, se você curte aventuras e boas risadas, seja bem vindo!
+        </p>
+        <p>Sou sul-mato-grossense natural de Campo Grande, mas no momento tô batendo ponto em Curitiba, no Paraná.
+            Sempre fui
+            fissurado por informática, e agora tô realizando meu sonho de fazer uma formação nessa área. É isso aí,
+            galera, bora seguir em frente e explorar todas as possibilidades que a vida nos reserva!
+        </p>
+
+        <!--Insere imagem e formatando style-->
+        <img src="flutuacao01.JPG" style="display: block; border-radius: 10%; margin: auto;" width="40%">
+    </div>
+
+
+    <div id="formacao" class="assuntos">
+        <h1>Formação e Experiências</h1>
+        <p>Formação Acadêmica:</p>
+        <ul> <!--lista não ordenada-->
+            <li>
+                <p>Curso: Análise e Desenvolvimento de Sistemas 2022 até o presente</p>
+                <p>Instituição: Uninter</p>
+                <p>Descrição: O curso de Análise e Desenvolvimento de Sistemas é uma formação voltada para preparar
+                    profissionais para atuar na área de tecnologia da informação. Durante o curso, os alunos aprendem
+                    sobre programação, bancos de dados, redes de computadores, engenharia de software, além de
+                    disciplinas relacionadas à análise de sistemas e gestão de projetos. Eles desenvolvem habilidades
+                    para projetar, desenvolver, implementar e manter sistemas de informação em diversas plataformas e
+                    ambientes. Essa formação capacita os estudantes para trabalhar como analistas de sistemas,
+                    programadores, desenvolvedores de software, consultores de TI, entre outras oportunidades no mercado
+                    de tecnologia.</p>
+            </li>
+            <br><br>
+            <li>
+                <p>Curso: Técnico em Segurança Pública, 2016</p>
+                <p>Instituição: Governo do estado do Paraná - PMPR</p>
+                <p>Descrição: O curso de Técnico em Segurança Pública é uma formação técnica voltada para preparar
+                    profissionais para atuar na área de segurança, tanto no setor público quanto privado. Ele abrange
+                    uma variedade de disciplinas, como direito penal, criminalística, gestão de crises, procedimentos
+                    policiais, entre outros. Os alunos aprendem sobre a legislação relacionada à segurança, técnicas de
+                    investigação, prevenção de crimes e manejo de situações de emergência. Essa formação capacita os
+                    estudantes para trabalhar em diversas áreas, como policiamento, segurança patrimonial, vigilância,
+                    entre outros.</p>
+            </li>
+            <br><br>
+            <li>
+                <p>Curso: Técnico em Papel e Celulose 2011</p>
+                <p>Instituição: SENAI</p>
+                <p>Descrição: O curso de Técnico em Papel e Celulose é uma formação técnica voltada para preparar
+                    profissionais para atuar na indústria de papel e celulose. Ele abrange conhecimentos sobre todo o
+                    processo produtivo, desde a extração da matéria-prima até a fabricação do produto final. Os alunos
+                    aprendem sobre técnicas de manejo florestal, processos de produção de celulose e papel, controle de
+                    qualidade, gestão ambiental, segurança do trabalho e manutenção industrial. Essa formação capacita
+                    os estudantes para trabalhar em diversas áreas dentro das indústrias de papel e celulose, como
+                    produção, operação de máquinas, controle de qualidade e gestão ambiental.</p>
+            </li>
+
+    </div>
+
+
+    <div id="portifolio" class="assuntos">
+        <h1>Portifólio</h1>
+        <p>Portifólio em desenvolvimento...</p>
+
+        <p>Aguarde, estou trabalhando para que logo tenha novidades aqui!!!</p>
+        <br>
+        <p>Obrigado pela sua paciência e interesse!</p>
+        <img src="emConstrucao.jpeg" alt="emConstrucao" title="Construção"
+            style="display: block; border-radius: 10%; margin: auto;">
+    </div>
+
+
+    <div id="contato" class="assuntos">
+        <h1>Contato</h1>
+
+        <h3> Insira aqui a sua mensagem:</h3>
+
+        <form>
+
+            <br>
+            <!--Inserir uma tabela-->
+            <table>
+
+                <tr>
+                    <th>Nome</th>
+                    <td><input type="text" size="50"></td> <!--Exibe um campo de entrada de texto de linha única-->
+                </tr>
+
+                <tr>
+                    <th>E-mail</th>
+                    <td><input type="email" size="50"></td>
+                </tr>
+
+
+                <tr>
+                    <th>Fone</th>
+                    <td><input type="tel" size="14" placeholder="(DDD) 9 9876-5432" pattern="[0-9]{2}[0-9]{5}[0-9]{4}"
+                            required></td> <!--Area para digitar numero de celular com esse exemplo-->
+                </tr>
+
+
+                <tr>
+                    <th>Mensagem:</th>
+                    <td><textarea rows="7" cols="100"></textarea></td>
+                    <!--Insere uma área de texto para o usuário digitar textos.-->
+                </tr>
+
+                <tr>
+                    <th></th>
+
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </table>
+            <br><br>
+
+            <h4>Se preferir, entre em contato através do e-mail: gregoryguise@hotmail.br </h4>
+        </form>
+    </div>
+
+    <!--chama rodape-->
+
+    <div class="rodape">
+        <a href="#">Voltar ao início</a>
+        <p style="color: white; text-align: left;"> 2024 Gregory Guise Soares RU 4179434 </p>
+    </div>
+    </footer>
+
+</body>
+
+</html>
